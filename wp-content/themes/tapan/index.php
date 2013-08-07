@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php wp_nav_menu("left-menu"); ?>
 
     <div class="container clearfix">
         <?php while ( have_posts() ) : the_post() ?>

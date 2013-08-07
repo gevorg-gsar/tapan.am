@@ -16,22 +16,22 @@
     <div class="header_wrapper">
 
         <div class="header_lang">
-            <img src="<?php bloginfo('template_directory'); ?>/images/flag_am.png" width="24" />
-            <img src="<?php bloginfo('template_directory'); ?>/images/flag_ru.png" width="24" />
-            <img src="<?php bloginfo('template_directory'); ?>/images/flag_eng.png" />
+            <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/flag_am.png" width="24" /> </a>
+            <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/flag_ru.png" width="24" /> </a>
+            <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/flag_eng.png" /> </a>
         </div>
 
         <div class="header_logo">
-            <img src="<?php bloginfo('template_directory'); ?>/images/logo_eng.png" />
+            <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/logo_eng.png" /> </a>
         </div>
 
         <div class="header_social_icons">
-            <img src="<?php bloginfo('template_directory'); ?>/images/facebook_icon.png" />
-            <img src="<?php bloginfo('template_directory'); ?>/images/twitter_icon.png" />
+            <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/facebook_icon.png" /> </a>
+                <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/twitter_icon.png" /> </a>
         </div>
 
         <div class="header_join_us">
-            <img src="<?php bloginfo('template_directory'); ?>/images/join_us_eng.png" />
+            <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/join_us_eng.png" /> </a>
         </div>
 
     </div>

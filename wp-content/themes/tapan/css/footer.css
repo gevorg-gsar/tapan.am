@@ -1,1 +1,37 @@
 /* footer ---------------------------------- */
+.footer_wrapper {
+    width: 988px;
+    height: 80px;
+    padding: 20px 0 20px 12px;
+    color: #fff;
+}
+
+.footer_wrapper>div {
+    float: left;
+}
+
+.footer_baner_1 {
+    width: 202px;
+}
+.footer_baner_2 {
+    width: 230px;
+}
+
+.footer_baner_3 {
+    width: 218px;
+}
+
+.footer_baner_4 {
+    width: 87px;
+}
+
+.footer_baner_5 {
+    width: 215px;
+}
+
+.table-cell-view {
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
