@@ -1,0 +1,70 @@
+/* content ---------------------------------- */
+.page .content {
+    width: 1000px;
+}
+
+/* content_left ----------------------------- */
+.page .content .content_left {
+    width: 243px;
+    float: left;
+}
+
+/* .content_right ---------------------------- */
+.page .content .content_right {
+    width: 727px;
+    padding: 30px 15px;
+    float: left;
+    background-color: #fff;
+    border-radius: 23px;
+}
+
+.page .content .content_right .posts_title {
+    height: 25px;
+    border-bottom: 2px solid #eeeeee;
+    font: italic bold 18px Georgia, "Times New Roman", Times, serif;
+    color: #537f21;
+}
+
+/* post ---------------------------------------- */
+div.page .content .content_right .post {
+    margin: 20px 0;
+}
+
+div.post >p {
+    word-wrap: break-word;
+}
+
+.page .content .content_right .post .post_icon {
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.page .content .content_right .post .post_icon img {
+    border: 1px solid #fb7500;
+}
+
+.page .content .content_right .post .post_date {
+    width: 585px;
+    margin: 10px 0 0 136px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #fb7500;
+    color: #fb7600;
+}
+
+.page .content .content_right  .post .post_title a {
+    margin: 15px 0;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #474747;
+}
+
+.page .content .content_right .post .post_more {
+    margin-right: 30px;
+    text-align: right;
+}
+
+.page .content .content_right .post .post_more a {
+    color: #fb7600;
+}

@@ -1,37 +1,37 @@
 /* footer ---------------------------------- */
-.footer_wrapper {
+.page .footer {
     width: 988px;
     height: 80px;
     padding: 20px 0 20px 12px;
     color: #fff;
 }
 
-.footer_wrapper>div {
+.page .footer>div {
     float: left;
 }
 
-.footer_baner_1 {
+.page .footer .footer_baner_1 {
     width: 202px;
 }
-.footer_baner_2 {
+
+.page .footer .footer_baner_2 {
     width: 230px;
 }
 
-.footer_baner_3 {
+.page .footer  .footer_baner_3 {
     width: 218px;
 }
 
-.footer_baner_4 {
+.page .footer .footer_baner_4 {
     width: 87px;
 }
 
-.footer_baner_5 {
+.page .footer .footer_baner_5 {
     width: 215px;
 }
 
-.table-cell-view {
+.page .footer .table-cell-view {
     height: 80px;
     display: table-cell;
     vertical-align: middle;
 }
-

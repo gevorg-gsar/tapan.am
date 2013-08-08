@@ -12,8 +12,8 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<div class="page_wrapper">
-    <div class="header_wrapper">
+<div class="page">
+    <div class="header">
 
         <div class="header_lang">
             <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/flag_am.png" width="24" /> </a>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="header_logo">
-            <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/logo_eng.png" /> </a>
+            <a href="<?php bloginfo('url'); ?>"> <img src="<?php bloginfo('template_directory'); ?>/images/logo_eng.png" /> </a>
         </div>
 
         <div class="header_social_icons">
@@ -30,7 +30,7 @@
                 <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/twitter_icon.png" /> </a>
         </div>
 
-        <div class="header_join_us">
+        <div class="header_button">
             <a href="#"> <img src="<?php bloginfo('template_directory'); ?>/images/join_us_eng.png" /> </a>
         </div>
 

@@ -1,29 +1,34 @@
-.page_wrapper{
+.page {
     width: 1000px;
     margin: 0 auto;
 }
+
 /* header -----------------------------*/
-.header_wrapper{
+.page .header {
     width: 1000px;
-    height: 328px;
+    height: 307px;
     background: url('../images/bg_header.jpg') no-repeat;
 }
-.header_lang{
+
+.page .header .header_lang {
     width: 975px;
     height: 44px;
     padding: 16px 0 0 25px;
 }
-.header_logo{
+
+.page .header .header_logo {
     width: 990px;
     height: 95px;
     padding-left: 10px;
 }
-.header_social_icons{
+
+.page .header .header_social_icons {
     width: 870px;
     height: 32px;
     padding: 49px 0 0 130px;
 }
-.header_join_us{
+
+.page .header .header_button {
     width: 150px;
     height: 56px;
     padding: 0 0 0 850px;

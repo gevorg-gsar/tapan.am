@@ -23,4 +23,6 @@ function custom_excerpt_more( $post ) {
 	return '... <a href="'.get_permalink($post->ID).'" class="more-link" >Lire la suite &raquo;</a>';
 }
 add_filter( 'excerpt_more', 'custom_excerpt_more' );
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 124, 94, true );
  

@@ -1,4 +1,4 @@
-<div class="footer_wrapper">
+<div class="footer">
     <div>
         <div class="footer_baner_1 table-cell-view">
             <p> &copy; 2013 Plexonic </p>
@@ -25,10 +25,12 @@
         </div>
     </div>
 
+    <div class="div_clear"></div>
+
     <?php wp_footer(); ?>
 </div>
 
-</div> <!-- .page_wrapper -->
+</div> <!-- .page -->
 
 </body>
 </html>
