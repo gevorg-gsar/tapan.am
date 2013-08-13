@@ -1,0 +1,77 @@
+/*
+ * WP-Paginate - WordPress Pagination Function
+ * Revision: $Id: wp-paginate.css 286636 2010-09-08 00:11:23Z emartin24 $
+ * Copyright (c) 2010 Eric Martin http://www.ericmmartin.com/projects/wp-paginate/
+ */
+.wp-paginate {
+	position: relative;
+	padding: 11px; 
+	margin: 30px 0 0;
+	background-color: #ffffff;
+	text-align: center;
+}
+.wp-paginate li {
+	display: inline-block; 
+	list-style: none;
+}
+.wp-paginate a, .wp-paginate a:hover {
+	padding: 5px 9px;
+	margin-right: 4px;
+	background-color: #E6EAEB;
+	border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	font-family: Segoe UI, Helvetica, Arial, serif;
+	color: #666; font-size: 11px; font-weight: bold; text-align: center; text-decoration: none;
+}
+
+.wp-paginate .title {
+	color: #555; 
+	margin-right: 4px;
+}
+.wp-paginate .gap {
+	color: #999; 
+	margin-right: 4px;
+}
+.wp-paginate .current {
+	padding: 5px 9px;
+	margin-right: 4px;
+	background-color: #a1a1a1;
+	border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	font-family: Segoe UI, Helvetica, Arial, serif;
+	color: #fff; font-size: 11px; font-weight: bold; text-align: center;
+}
+.wp-paginate .page {}
+
+.wp-paginate .prev {
+	position: absolute;
+	top: 11px; left: 11px;
+}
+.wp-paginate .prev a {
+	padding-left: 19px;
+	background-image: url(images/prev-arrow.gif);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+    background-color: #E6EAEB;
+}
+.wp-paginate .next {
+	position: absolute;
+	top: 11px; right: 11px;
+}
+.wp-paginate .next a {
+	padding-right: 19px;
+	background-image: url(images/next-arrow.gif);
+	background-position: 42px center;
+	background-repeat: no-repeat;
+    background-color: #E6EAEB;
+}
+
+
+/* style overrides for comments pagination */
+.wp-paginate-comments {}
+.wp-paginate-comments li {}
+.wp-paginate-comments a {}
+.wp-paginate-comments a:hover, .wp-paginate-comments a:active {}
+.wp-paginate-comments .title {}
+.wp-paginate-comments .gap {}
+.wp-paginate-comments .current {}
+.wp-paginate-comments .page {}
+.wp-paginate-comments .prev, .wp-paginate-comments .next {}
